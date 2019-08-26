@@ -1,0 +1,18 @@
+Swift API Documentation 
+
+
+*** Routes ***
+
+- Notes: Add route to route file. Setup oAuth by sending a request to the route url. This will post to SwiftDesign and return a access token. 
+
+Route::get('/api/callback/oauth/setup', 'SwiftControllers\ContactForm\ContactController@testOauth');
+
+
+
+*** API KEYS *** 
+
+SWIFT_API_CLIENT_ID = 'id'
+SWIFT_API_KEY_SECRET = 'key'
+SWIFT_API_ACCESS_TOKEN = 'token'
+
+

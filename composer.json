@@ -1,0 +1,29 @@
+{
+  "name": "swiftdesign/api",
+  "description": "API Adpater for SwiftDesign",
+  "keywords": [],
+  "homepage": "https://swiftdesign.com",
+  "license": "MIT",
+  
+  "authors": [
+    {
+      "name": "Matthew Lynch",
+      "email": "lynch@swiftdesignstudio.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/config": "5.*",
+    "illuminate/support": "5.*",
+    "guzzlehttp/guzzle": "^6.2",
+    "anhskohbo/no-captcha": ">=2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SwiftDesign\\Api\\": "src/"
+    }
+  }
+}
